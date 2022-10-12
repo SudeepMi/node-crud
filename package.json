@@ -4,7 +4,7 @@
   "description": "Basic CRUD in Express Application",
   "main": "index.js",
   "scripts": {
-    "test": "node index.js"
+    "start": "nodemon index.js"
   },
   "repository": {
     "type": "git",
@@ -22,6 +22,7 @@
   "homepage": "https://github.com/SudeepMi/node-crud#readme",
   "dependencies": {
     "express": "^4.18.2",
-    "mongoose": "^6.6.5"
+    "mongoose": "^6.6.5",
+    "nodemon":"2.0.*"
   }
 }
