@@ -15,12 +15,16 @@
     "nodejs"
   ],
   "author": "Sudeep Mishra",
+  "contributors": [
+    "Patchara Suwanbordin <pepatcha_@hotmail.com> (https://pepatcha.com)"
+  ],
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/SudeepMi/node-crud/issues"
   },
   "homepage": "https://github.com/SudeepMi/node-crud#readme",
   "dependencies": {
+    "dotenv": "^16.0.3",
     "express": "^4.18.2",
     "mongoose": "^6.6.5",
     "morgan": "^1.10.0",
